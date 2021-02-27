@@ -89,14 +89,14 @@ body {
 }
 
 .dancefloor-grid-block-type-1 {
-    background: url('ground.png') no-repeat center center/contain;
+    background: url('https://cyphernetica.github.io/grenouilles/assets/ground.png') no-repeat center center/contain;
 }
 .dancefloor-grid-block-type-2 {
-    background: url('tree.png') no-repeat center center/contain;
+    background: url('https://cyphernetica.github.io/grenouilles/assets/tree.png') no-repeat center center/contain;
 }
 
 .dancefloor-grid-block-type-3 {
-    background: url('sea.png') no-repeat center center/contain;
+    background: url('https://cyphernetica.github.io/grenouilles/assets/sea.png') no-repeat center center/contain;
 }
 
 
