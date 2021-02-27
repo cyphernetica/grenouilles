@@ -3,13 +3,13 @@
     "key" : "grenouille" ,
     "content" : "Le terme grenouille est un nom vernaculaire attribué à certains amphibiens, principalement dans le genre Rana. À un de ses stades de développement, la larve de la grenouille est appelée un têtard. Les grenouilles sont des quadrupèdes de l'ordre des anoures, tout comme les rainettes, qui sont en général plus vertes et arboricoles, les crapauds dont la peau est plus granuleuse et les xénopes strictement aquatiques. Tous ces termes usuels correspondent à des apparences extérieures plus qu'à des classements strictement taxinomiques.",
     "url" : "https://fr.wikipedia.org/wiki/Grenouille",
-    "avatar" : "/assets/avatar/grenouille.png"
+    "avatar" : "https://cyphernetica.github.io/grenouilles/assets/avatar/grenouille.png"
   },
   {
     "key" : "coleoptera" ,
     "content" : "Les coléoptères (Coleoptera) sont un ordre d'insectes holométaboles dotés d'élytres protégeant leurs ailes. Le mot « coléoptère » vient du grec κολεός « fourreau » et πτερόν « aile ». Il s'agit de l'ordre animal qui comporte le plus grand nombre d'espèces décrites (près de 387 000 décrites en 20151 mais le nombre total, basé sur des estimations statistiques, est évalué à 1,5 million d'espèces2). Beaucoup d'espèces ou des groupes d'espèces ont des noms vernaculaires bien implantés ; les scarabées, les coccinelles, les lucanes, les chrysomèles, les hannetons, les charançons, les carabes, les leptures, par exemple, sont des coléoptères.",
     "url" : "https://fr.wikipedia.org/wiki/Coleoptera",
-    "avatar" : "/assets/avatar/coleoptera.png"
+    "avatar" : "https://cyphernetica.github.io/grenouilles/assets/avatar/coleoptera.png"
   }
 
 ]

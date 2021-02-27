@@ -89,14 +89,14 @@ body {
 }
 
 .dancefloor-grid-block-type-1 {
-    background: url('assets/ground.png') no-repeat center center/contain;
+    background: url('ground.png') no-repeat center center/contain;
 }
 .dancefloor-grid-block-type-2 {
-    background: url('assets/tree.png') no-repeat center center/contain;
+    background: url('tree.png') no-repeat center center/contain;
 }
 
 .dancefloor-grid-block-type-3 {
-    background: url('assets/sea.png') no-repeat center center/contain;
+    background: url('sea.png') no-repeat center center/contain;
 }
 
 
