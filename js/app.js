@@ -76,7 +76,7 @@ function bindAnimalEvent() {
 
 function createDancefloor(playground){
 
-    fetch('/data/playground.json').then(response => {
+    fetch('https://cyphernetica.github.io/grenouilles/data/playground.json').then(response => {
 
         if( response.status === 200 ){
             return response.json()
@@ -159,7 +159,7 @@ function createDancefloor(playground){
 
 
     window.infoDatas = null;
-    fetch('/data/infos.json').then(response => {
+    fetch('https://cyphernetica.github.io/grenouilles/data/infos.json').then(response => {
 
         if( response.status === 200 ){
             return response.json()
@@ -171,7 +171,7 @@ function createDancefloor(playground){
     });
 
 
-     fetch('/data/animals.json?v='+now.getTime()).then(response => {
+     fetch('https://cyphernetica.github.io/grenouilles/data/animals.json?v='+now.getTime()).then(response => {
 
          if( response.status === 200 ){
             return response.json()
