@@ -15,9 +15,10 @@ function displayInfoWindow(element) {
 
     });
 
-
-    console.log(window.infoDatas);
-    console.log( content );
+    content[0].animal = JSON.parse( element.dataset.animal );
+    console.log( content[0] );
+    parseAnimalForDisplay(content[0]);
+    
 
     let overlayBackground = document.createElement('div');
     let overlayContentWrapper = document.createElement('div');
@@ -47,6 +48,32 @@ function displayInfoWindow(element) {
     contentDiv.innerHTML = innerContent;
     
 
+
+}
+
+function parseAnimalForDisplay(object){
+    var moodTxt = 'Joyeux';
+    
+    if( object.animal.mood ){
+        
+        switch(object.animal.mood){
+            case 0:
+                moodTxt = 'Joyeux';
+                break;
+            case 1:
+                moodTxt = 'Triste';
+                break;
+            case 2:
+                moodTxt = 'En colère';
+                break;
+            case 3:
+                moodTxt = 'Affectueux';
+                break;        
+            case 4:
+                moodTxt = 'Affamé'
+        }
+    }
+    object.moodTxt = moodTxt
 
 }
 
@@ -177,7 +204,7 @@ function createDancefloor(playground){
             return response.json()
          }
      }).then(datas => {
-
+        console.log( datas );    
         const debugDiv = document.getElementById('debug');
         debugDiv.innerHTML = datas;
          for(let i= 0 ; i< datas.length ; i++) {
@@ -188,6 +215,7 @@ function createDancefloor(playground){
              animalBlock.dataset.targettype = animal.type;
              animalBlock.dataset.positionx= animal.position.x;
              animalBlock.dataset.positiony= animal.position.y;
+             animalBlock.dataset.animal = JSON.stringify( animal );
              animalBlock.style.cssText = "left:" + animal.position.x + 'px;top:'+animal.position.y+'px';
 
              let animalBlockContent = document.createElement('div');

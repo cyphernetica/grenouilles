@@ -13,6 +13,7 @@ body {
 
 .grid{
     display: flex;
+    flex-flow: row wrap;
 }
 
 .grid .cell{
@@ -20,7 +21,9 @@ body {
     width: 100%;
     padding: 15px;
 }
-
+.grid .cell.small-6 {
+    width: 50%;
+}
 @media(min-width:768px){
     .grid .cell.medlg-6{
             max-width: 50%;

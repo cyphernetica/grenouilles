@@ -33,6 +33,20 @@ layout: large
                     <a href="{{url}}">Plus d'info</a>
                 </div>
             </div>
+            <div class="grid">
+              <div class="cell small-6">
+                Mood : {{moodTxt}}
+              </div>
+              <div class="cell small-6">
+                {{#animal.adapted}}
+                    Cet animal appartient à : {{animal.owner}}
+                {{/animal.adapted}}
+
+                {{^animal.adapted}}
+                    Faite un dont et adopter cet animal
+                {{/animal.adapted}}
+              </div>
+            </div>
     </div>
      {% endraw %} 
 </script>

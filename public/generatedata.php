@@ -17,7 +17,11 @@ for($i=0; $i< $numberToGenerate; $i++) {
     $animal->adapted = rand(0, 1);
     $animal->owner = '';
     if( $animal->adapted === 1 ){
+        $animal->adapted = true;
         $animal->owner = $owners[rand(0, count($owners) - 1 )];
+    }
+    else{
+        $animal->adapted = false;
     }
     $position = new stdClass();
     $havePos = false;
@@ -64,3 +68,4 @@ function isAlreadyOccuped($position, $list) {
     return $res;
 
 }
+
