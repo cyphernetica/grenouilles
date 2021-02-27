@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.grid{
+    display: flex;
+}
+
+.grid .cell{
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 15px;
+}
+
+@media(min-width:768px){
+    .grid .cell.medlg-6{
+            max-width: 50%;
+    }
+    .grid .cell.medlg-9{
+        max-width: 75%;
+    }
+    .grid .cell.medlg-3{
+        max-width: 25%; 
+    }
+
+}
+
+
+
+
+#playground {
+    width: 2220px;
+    height: 900px;
+    max-width: 2220px;
+    position:relative;
+
+}
+.game {
+    position: relative;
+    z-index: 50;
+    display: block;
+    width: 100%;
+    height: 900px;
+}
+.debug-grid-playground {
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 2;
+}
+
+.debug-grid-block {
+    outline:1px solid #cacaca;
+    width:60px;
+    height: 60px;
+    display: block;
+    position:absolute;
+    z-index: 2;
+}
+
+.playground-dancefloor{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+}
+
+.dancefloor-grid-block {
+    width:60px;
+    height: 60px;
+    display: block;
+    position:absolute;
+    z-index: 1;
+}
+
+.dancefloor-grid-block-type-1 {
+    background: url('../assets/ground.png') no-repeat center center/contain;
+}
+.dancefloor-grid-block-type-2 {
+    background: url('../assets/tree.png') no-repeat center center/contain;
+}
+
+.dancefloor-grid-block-type-3 {
+    background: url('../assets/sea.png') no-repeat center center/contain;
+}
+
+
+.animal {
+    width:60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+}
+.animal-content {
+    position: relative;
+    width:60px;
+    height: 60px;
+    display: block;
+}
+.animal-avatar {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+.grenouille .animal-avatar{
+    background: darkgreen;
+}
+.coleoptera .animal-avatar{
+    background: rgb(129, 4, 129);
+}
+
+
+.overlay-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    display: block;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
+}
+
+
+.overlay-content-box
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid #000;
+    background: #fff;
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+    max-width: 600px;
+    max-height: 700px;
+    z-index: 90;
+    padding: 25px;
+    
+}
+
+.overlay-content-wrapper
+{
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    
+}
+.button-close-overlay {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: #cacaca;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+    z-index: 999;
+}
+
+
+.animalinfo-box .avatar{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}

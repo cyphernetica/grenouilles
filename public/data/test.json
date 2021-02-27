@@ -1,0 +1,332 @@
+[
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 3,
+        "adapted": 1,
+        "owner": "Beverly Crusher",
+        "position": {
+            "x": 1140,
+            "y": 240
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 1,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 2220,
+            "y": 780
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 4,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1860,
+            "y": 240
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 4,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 2160,
+            "y": 540
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 0,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1200,
+            "y": 600
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 1,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1260,
+            "y": 360
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 2,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1440,
+            "y": 60
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 4,
+        "adapted": 1,
+        "owner": "Lon Suder",
+        "position": {
+            "x": 480,
+            "y": 720
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 4,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1740,
+            "y": 780
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 2,
+        "adapted": 1,
+        "owner": "Luther Sloan",
+        "position": {
+            "x": 1560,
+            "y": 840
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 0,
+        "adapted": 1,
+        "owner": "Jean-Luc Picard",
+        "position": {
+            "x": 540,
+            "y": 360
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 1,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 180,
+            "y": 780
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 1,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1260,
+            "y": 120
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 0,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1620,
+            "y": 780
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 4,
+        "adapted": 1,
+        "owner": "Rom",
+        "position": {
+            "x": 360,
+            "y": 540
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 4,
+        "adapted": 1,
+        "owner": "Ro Laren",
+        "position": {
+            "x": 1980,
+            "y": 0
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 4,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1620,
+            "y": 120
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 4,
+        "adapted": 1,
+        "owner": "Tasha Yar",
+        "position": {
+            "x": 360,
+            "y": 660
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 3,
+        "adapted": 1,
+        "owner": "Sarah Sisko",
+        "position": {
+            "x": 1620,
+            "y": 660
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 3,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1020,
+            "y": 420
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 2,
+        "adapted": 1,
+        "owner": "Degra",
+        "position": {
+            "x": 1380,
+            "y": 840
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 0,
+        "adapted": 1,
+        "owner": "Philippa Georgiou",
+        "position": {
+            "x": 2220,
+            "y": 480
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 1,
+        "adapted": 1,
+        "owner": "Ayala",
+        "position": {
+            "x": 1380,
+            "y": 720
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 2,
+        "adapted": 1,
+        "owner": "Malcolm Reed",
+        "position": {
+            "x": 1500,
+            "y": 240
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 2,
+        "adapted": 1,
+        "owner": "Keyla Detmer",
+        "position": {
+            "x": 1200,
+            "y": 840
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 4,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 1080,
+            "y": 240
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 2,
+        "adapted": 1,
+        "owner": "Carol Marcus",
+        "position": {
+            "x": 1740,
+            "y": 480
+        }
+    },
+    {
+        "type": "grenouille",
+        "size": "60",
+        "mood": 3,
+        "adapted": 0,
+        "owner": "",
+        "position": {
+            "x": 2160,
+            "y": 0
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 1,
+        "adapted": 1,
+        "owner": "Ayala",
+        "position": {
+            "x": 1080,
+            "y": 600
+        }
+    },
+    {
+        "type": "coleoptera",
+        "size": "60",
+        "mood": 4,
+        "adapted": 1,
+        "owner": "Gowron",
+        "position": {
+            "x": 1080,
+            "y": 540
+        }
+    }
+]

@@ -1,0 +1,42 @@
+ [
+    {
+      "type": "grenouille" ,
+      "size" : "60",
+      "position": {
+        "x": 60,
+        "y": 60
+      }
+    },
+    {
+      "type": "grenouille" ,
+      "size" : "60",
+      "position": {
+        "x": 60,
+        "y": 240
+      }
+    },
+    {
+      "type": "grenouille" ,
+      "size" : "60",
+      "position": {
+        "x": 600,
+        "y": 300
+      }
+    },
+    {
+      "type": "grenouille" ,
+      "size" : "60",
+      "position": {
+        "x": 1200,
+        "y": 600
+      }
+    },
+    {
+      "type": "grenouille" ,
+      "size" : "60",
+      "position": {
+        "x": 240,
+        "y": 720
+      }
+    }
+]
